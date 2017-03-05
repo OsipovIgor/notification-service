@@ -4,16 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OsipovIgor/notification-service.git"
   },
-  "author": "",
+  "author": "Osipov Igor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OsipovIgor/notification-service/issues"
   },
-  "homepage": "https://github.com/OsipovIgor/notification-service#readme"
+  "homepage": "https://github.com/OsipovIgor/notification-service#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "morgan": "^1.8.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.3"
+  }
 }
